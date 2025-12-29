@@ -1,47 +1,44 @@
-#Social Media Backend (Django + DRF)
+# Social Media Backend API (Django + DRF)
+  A production-style social media backend API built using Django and Django REST Framework (DRF).
+  This project demonstrates real-world backend engineering practices, clean architecture, and scalable RESTful API design.
 
-This project is a full-featured social media backend API built using Django and Django REST Framework.
+# Features
 
-#Features
+- User authentication (Django Auth + Token Authentication)
 
--User authentication (Django Auth + Token)
+- User profiles with privacy support
 
--User profiles with privacy support
+- Follow / Unfollow system
 
--Follow / Unfollow system
+- Post creation with media support
 
--Posts with media support
+- Like system with idempotent behavior
 
--Likes (idempotent)
+- Comment system with nested replies
 
--Comments with replies
+- Feed generation logic
 
--Feed generation logic
+- Cached counters (likes, comments, followers)
 
--Cached counters (likes, comments, followers)
+- Service-layer architecture
 
--Service-layer architecture
+- RESTful API design
 
--RESTful API design
+# Tech Stack
+- Django
+- Django REST Framework
+- SQLite (development)
+- Token-based Authentication
 
-#Tech Stack
+# Architecture
 
--Django
+- Models → Data layer
+- Serializers → Validation & data transformation
+- Services → Business logic
+- Views → HTTP request & response handling
 
--Django REST Framework
+# Purpose
+  This project was built as a capstone backend project to demonstrate real-world backend development skills, scalable architecture, and clean API design.
 
--SQLite (development)
 
--Token Authentication
 
-#Architecture
-
--Models → Data layer
-
--Serializers → Validation & transformation
-
--Services → Business logic
-
--Views → HTTP handling
-
-This project was built as a capstone backend project to demonstrate real-world backend engineering practices.
